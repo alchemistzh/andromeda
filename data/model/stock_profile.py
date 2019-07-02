@@ -14,7 +14,7 @@ class StockProfile(model.Base):
 
     Optional attributes:
         exchange: Exchange corporation of the stock. Ex: SSE.
-        pinyin: Acronym of the name pinyin. Ex: zhgf.
+        pinyin: Pinyin acronym of the name. Ex: zhgf.
         market_cap: Market capitalization.
         float_cap: Free-float capitalization.
         shares: Outstanding Shares.
